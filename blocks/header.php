@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <style type="text/css">
+  body { background-color: #d0d0d0; }
+  p { color: #fff; }
+</style>
   </head>
   <body>
-  <div class="container">
-    
+  <!-- <div class="container" style="background: #f5f5f5; color: blue;"> -->
+  <div id="block" class="container">
   <header>  
     <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
       <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
@@ -26,6 +31,6 @@
 
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
       <h1 class="display-4 fw-normal">Полезные команды</h1>
-      <p class="fs-5 text-muted">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+      <p class="fs-5 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ducimus, nostrum veritatis dolore eum debitis ex recusandae, nobis odit quas maiores unde ab ut soluta dolorem dolor a quasi vel?</p>
     </div>
   </header>
